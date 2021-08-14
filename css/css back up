@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    font-family: 'Montserrat';
+}
+.menu-nav {
+    list-style-type: none;
+}
+body{
+    margin: 0 auto;
+}
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+a.A{
+    color: white;
+    text-decoration: none;
+}
+a.B{
+    color: white;
+    text-decoration: none;
+}
+a.C{
+    color: white;
+    text-decoration: none;
+}
+a.D{
+    color: white;
+    text-decoration: none;
+}
+a.E{
+    color: white;
+    text-decoration: none;
+}
+
+.A:hover{
+    text-decoration: overline;
+    color: red;
+    font-weight: bold;
+}
+.B:hover{
+    text-decoration: overline;
+    color: red;
+    font-weight: bold;
+}
+.C:hover{
+    text-decoration: overline;
+    color: red;
+    font-weight: bold;
+}
+.D:hover{
+    text-decoration: overline;
+    color: red;
+    font-weight: bold;
+}
+.E:hover{
+    text-decoration: overline;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.déroulant{
+    display: none;   
+}
+
+li.btn:hover .déroulant{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+.déroulant li{
+    border-bottom: 1px solid #ccc;
+}
+
+
+.déroulant li a{
+    padding: 15px 3px;
+    font-size: 13px;
+    color: red;
+    width: 270px;
+}
+
+
+
+
+
+header.header2{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    font-family: 'Montserrat', cursive;
+    font-weight: 60;
+}
+
+.lewisVersta{
+    font-size: 25px;
+    line-height: 2;
+}
+
+section.top-page{
+    background: url('../img/alpine.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+nav.menu-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none ;
+    margin-left: 100px;
+    width: 1310px;
+    padding-right: 300px;
+    font-size: 30px;
+    background-size: cover;
+}
+
+.landing-page{
+    padding: 20px 50px;
+}
+
+.big-title{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+}
+
+.scroll-down{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 300px;
+    font-size: 25px;
+}
+
+.section-title{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 7px;
+    bottom: 0;
+}
+
+.actu{
+    margin: 100px;
+}
+
+div.article{
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article1{
+    position: relative;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.article :hover{
+    background-color: white;
+    opacity: 0.17;
+    transition: 0.3s;
+}
+
+.article1A{
+    background-image: url(../img/verstahamilton.jpeg);
+    
+    
+}
+
+.article2{
+    background-image: url(../img/russelbottas.jpg);
+}
+
+.article3{
+    background-image: url(../img/galsy.jpg);
+}
+
+.article4{
+    background-image: url(../img/LC16.jpg);
+}
+
+.article-détails {
+    position: absolute;
+    width: 90.7%;
+    bottom: 0;
+    background-color: red;
+    padding: 2px 20px;
+} 
+.article-name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+    color: black;
+}
+.auteur{
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 3px;
+}
+.read{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+}
+.foot{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2px 20px;
+    border-bottom: white;
+}
+.foot{
+    margin-left: 80px;
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+    border-bottom: 1px solid red;
+}
+
+.croix{
+    margin-left: 50px;
+}
+
+/* .foot::before{
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 460px;
+    height: 7px;
+    bottom: 0;
+} */

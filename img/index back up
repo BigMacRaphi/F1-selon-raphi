@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La f1 selon raphi</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+</head>
+<body>
+    
+    <section class="top-page">
+       
+        <header class="header"> 
+            <img src="img/logo_small.png" alt="Logo" width="150px">
+        <ul class="général">
+            <nav class="menu-nav">  
+                <li class="btn"> <a class="A" href="EcurieP.html"> Ecurie</li></a>
+            <ul class="déroulant">
+                <div class="Ecurie-menu">
+                <li>Mercedes</li> <li>Redbull</li> <li>Mclaren</li> <li>Aston Martin</li>  <li>Alpine</li>  <li>Ferrari</li> <li>AlphaTauri</li> <li>Alfa Roméo</li>  <li>Hass</li> <li>Williams</li>
+            </ul></div>
+            <li class="btn"> <a class="E" href="Pilote.html">Pilotes</li></a>
+            <ul class="déroulant">
+                        <li>Lewis Hamilton</li>
+                        <li>Valterri Bottas</li>
+                        <li>Max Verstappen</li>
+                        <li>Sergio Perez</li>
+                        <li>Lando Norris </li>
+                        <li>Daniel Ricciardo</li>
+                        <li>Sebastian Vettel</li>
+                        <li>Lance Stroll</li>
+                        <li>Fernando Alonso</li>
+                        <li>Esteban Ocon</li>
+                        <li>Pierre Gasly</li>
+                        <li>Yuki Tsunoda</li>
+                        <li>Charles leclerc</li>
+                        <li>Carlos Sainz</li>
+                        <li>Kimi Raikonnen</li>
+                        <li>Antonio Giovinazzi</li>
+                        <li>Mick Schumacher</li>
+                        <li>Nikita Mazepin</li>
+                        <li>Georges Russel</li>
+                        <li>Nicholas Latifi</li>    
+                        </ul>
+                        
+            <li class="btn"> <a class="B" href="classementE.html"> Classement écurie</li></a>
+            <li class="btn"> <a class="C" href="ClassementP.html"> Classement pilote</li></a>
+            <li class="btn"> <a class="D" href="Transfert.html"> Transfert</li> </a></ul>
+        </header>
+        <div class="landing-page">
+            <h1 class="big-title"></h1>
+            <a class="scroll-down" href="#actu"> <U>Actualités</U> <i class="fas fa-angle-down"></i></a>
+        </div>
+            
+        </section>
+
+        <section class="actu" id="actu">
+            <h2 class="section-title">
+                Les actualités F1
+            </h2>
+            <div class="article" >
+                
+                <a  class="article1 article1A" href="EP.html"> 
+                    <div class="article-détails">
+                        <p class="article-name" > Le clash Verstappen Hamilton</p>
+                        <p class="auteur">Ecrit par raphi</p>
+                    </div> 
+                </a>
+                
+                <a  class="article1 article2">
+                    <div class="article-détails">
+                        <p class="article-name" > Et si l'aventure wlliams continuait</p>
+                        <p class="auteur"> Ecrit par raphi</p>
+                        
+                    </div>
+                </a>
+                <a class="article1 article3">
+                    <div class="article-détails">
+                        <p class="article-name" > Gasly un début de saison réussi</p>
+                        <p class="auteur"> Ecrit par raphi</p>
+                    </div>
+                </a>
+                <a class="article1 article4">
+                    <div class="article-détails">
+                        <p class="article-name" >Charles leclerc impressionant </p>
+                        <p class="auteur"> Ecrit par raphi</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </nav>
+<div class="footer">
+    <footer >
+        <div logo>
+            <H2 class="foot">Où nous retrouver ?</H2>
+        </div>
+    <div class="logo">
+        <img src="../img/discord.png" alt=""><br>
+        <img src="../img/insta.png" alt=""><br>
+        <img src="../img/twitter.png" alt=""><br>
+    </div></div>
+    </footer>
+</div>
+</body>
+</html>
