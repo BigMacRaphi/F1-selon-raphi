@@ -8,8 +8,10 @@
 }
 body{
     margin: 0 auto;
+    width: 100%;
 }
 
+                                           /* MENU DE NAVIGATION */
 header.header{
     display: flex;
     align-items: center;
@@ -31,6 +33,10 @@ a.D{
     text-decoration: none;
 }
 a.E{
+    color: white;
+    text-decoration: none;
+}
+a.F{
     color: white;
     text-decoration: none;
 }
@@ -60,12 +66,42 @@ a.E{
     color: red;
     font-weight: bold;
 }
+.F:hover{
+    text-decoration: overline;
+    color: red;
+    font-weight: bold;
+}
+
+
+nav.menu-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none ;
+    margin-left: 100px;
+    width: 1510px;
+    padding-right: 300px;
+    font-size: 30px;
+    background-size: cover;
+    
+}
+ul.général{
+    padding: 0px 5px;
+}
+nav.menu-nav2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none ;
+    margin-left: 100px;
+    width: 1310px;
+    padding-right: 30px;
+    font-size: 30px;
+    align-items: center;
+}
 
 
 
 
-
-
+                                                                    /* MENU DEROULANT */
 .déroulant{
     display: none;   
 }
@@ -90,7 +126,7 @@ li.btn:hover .déroulant{
     width: 270px;
 }
 
-
+                                                                     /* menu déroulant fin */
 
 
 
@@ -101,6 +137,32 @@ header.header2{
     display: flex;
     font-family: 'Montserrat', cursive;
     font-weight: 60;
+}
+                                                                          /* presentation bibliothèque */
+header.header3{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    font-family: 'Montserrat', cursive;
+    font-weight: 60;
+    justify-content: space-between;
+    margin-top: 0%;
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+    border-bottom: 3px solid red;
+}
+
+.biblio-title{
+    color: red;
+    text-align: center;
+    font-size: 80px;
+}
+
+.croix{
+    margin-left: 50px;
 }
 
 .lewisVersta{
@@ -114,16 +176,7 @@ section.top-page{
     background-size: cover;
 }
 
-nav.menu-nav{
-    display: flex;
-    justify-content: space-between;
-    list-style: none ;
-    margin-left: 100px;
-    width: 1310px;
-    padding-right: 300px;
-    font-size: 30px;
-    background-size: cover;
-}
+
 
 .landing-page{
     padding: 20px 50px;
@@ -194,8 +247,6 @@ div.article{
 
 .article1A{
     background-image: url(../img/verstahamilton.jpeg);
-    
-    
 }
 
 .article2{
@@ -257,9 +308,7 @@ div.article{
 .logo-foot{
     margin-left: 80px;
 }
-.croix{
-    margin-left: 50px;
-}
+
 
 .foot-div-title{
     color: white;
@@ -277,3 +326,55 @@ div.article{
     height: 7px;
     bottom: 0;
 } */
+
+                                           /* Bibliothèque */
+
+
+
+
+
+/* Barre de recherche */
+
+div.bordureSearch{
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid ;
+}
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recherche{
+      height: 50px;
+      width: 230px;
+      font-size: 18px;
+      color: black;
+      font-weight: bold;
+  }
+  .iconSize{
+      height: 50px;
+      width: 50px;
+      border-radius: 10px 0 0 10px;
+  }
+  .backGris {
+    background-color: #f2f2f2;
+  }
+
+  .bordure {
+    border: none;
+  }
+  .paddingSearch{
+      padding-left: 20px;
+  }
+  .backBleu {
+    background-color: #0065fc;
+  }
+  .buttonSearch{
+      height: 50px;
+      width: 120px;
+      color: white;
+      cursor: pointer;
+      border-radius: 0 10px 10px 0;
+  }
