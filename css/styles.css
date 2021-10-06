@@ -40,7 +40,10 @@ a.F{
     color: white;
     text-decoration: none;
 }
-
+a.G{
+    color: white;
+    text-decoration: none;
+}
 .A:hover{
     text-decoration: overline;
     color: red;
@@ -71,17 +74,24 @@ a.F{
     color: red;
     font-weight: bold;
 }
-
-
+.G:hover{
+    text-decoration: overline;
+    color: red;
+    font-weight: bold;
+}
+.fa{
+    color: white;
+}
 nav.menu-nav{
     display: flex;
     justify-content: space-between;
     list-style: none ;
-    margin-left: 100px;
-    width: 1510px;
+    margin-left: 30px;
+    width: 100%;
     padding-right: 300px;
     font-size: 30px;
     background-size: cover;
+    
     
 }
 ul.général{
@@ -101,32 +111,6 @@ nav.menu-nav2{
 
 
 
-                                                                    /* MENU DEROULANT */
-.déroulant{
-    display: none;   
-}
-
-li.btn:hover .déroulant{
-    display: inline-block;
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    padding: 0px;
-    z-index: 1000;
-}
-.déroulant li{
-    border-bottom: 1px solid #ccc;
-}
-
-
-.déroulant li a{
-    padding: 15px 3px;
-    font-size: 13px;
-    color: red;
-    width: 270px;
-}
-
-                                                                     /* menu déroulant fin */
 
 
 
@@ -168,6 +152,7 @@ header.header3{
 .lewisVersta{
     font-size: 25px;
     line-height: 2;
+    margin-left: 10px;
 }
 
 section.top-page{
@@ -203,6 +188,15 @@ section.top-page{
     font-weight: bold;
 }
 
+
+
+
+
+
+
+
+
+                                                       /* actualités */
 .section-title{
     font-size: 50px;
     font-family: 'Abril FatFace', cursive;
@@ -252,7 +246,10 @@ div.article{
 .article2{
     background-image: url(../img/russelbottas.jpg);
 }
-
+.articleGR{
+    background-image: url(../img/russel.jpg);
+    text-decoration: none;
+}
 .article3{
     background-image: url(../img/galsy.jpg);
 }
@@ -285,6 +282,16 @@ div.article{
     font-weight: 600;
     line-height: 3px;
 }
+
+
+
+
+
+
+
+
+
+
 .footer{
     background-color: black;
     width: 100%;
@@ -292,32 +299,18 @@ div.article{
 .foot-title{
     text-align: center;
     color: white;
-    font-size: 30px;
-    font-weight: 600;
-    padding: 2px 20px;
-    border-bottom: white;
-}
-.foot-title{
-   
     font-size: 50px;
-    font-family: 'Abril FatFace', cursive;
-    font-weight: 100;
-    position: relative;
-    border-bottom: 1px solid red;
+    font-weight: 600;
+    padding: 0px 20px;
+    border-bottom: white;
+    margin-left: 10px;
+    word-spacing: 10px;
+    
 }
-.logo-foot{
-    margin-left: 80px;
+.trophée{
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
-.foot-div-title{
-    color: white;
-}
-.logo-foot{
-    color: white;
-    display: right;
-}
-
 /* .foot::before{
     content: "";
     position: absolute;
@@ -336,7 +329,7 @@ div.article{
 /* Barre de recherche */
 
 div.bordureSearch{
-    width: 400px;
+    width: 1400px;
     border-radius: 10px;
     border: 0.5px solid ;
 }
@@ -346,6 +339,12 @@ div.bordureSearch{
     align-items: center;
   }
 
+.search{
+    width: 70%;
+    height: 150px;
+    font-size: 50px;
+    font-weight: bold;
+}
   .recherche{
       height: 50px;
       width: 230px;
@@ -354,9 +353,10 @@ div.bordureSearch{
       font-weight: bold;
   }
   .iconSize{
-      height: 50px;
+      height: 150px;
       width: 50px;
       border-radius: 10px 0 0 10px;
+      margin-left: 0;
   }
   .backGris {
     background-color: #f2f2f2;
@@ -368,13 +368,275 @@ div.bordureSearch{
   .paddingSearch{
       padding-left: 20px;
   }
-  .backBleu {
-    background-color: #0065fc;
-  }
-  .buttonSearch{
-      height: 50px;
-      width: 120px;
-      color: white;
-      cursor: pointer;
-      border-radius: 0 10px 10px 0;
-  }
+
+
+  /* les ecuries */
+  .firstPlace{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.titleBattle{
+    font-size: 70px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    text-align: center;
+}
+.premiereplace{
+    align-items: right;
+}
+
+.mercologo{
+    border: 4px solid #00D3D1;
+}
+.rblogo{
+    border: 4px solid #173084;
+}
+.trophée{
+    display: flex;
+}
+
+.palmares{
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+                                                      /* Mercedes */
+  .section-merco{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-merco::before {
+    content: "";
+    position: absolute;
+    background-color: #00D3D1;
+    width: 700px;
+    height: 7px;
+    bottom: 0;
+}
+
+
+                                                      /* red bull */
+.section-rb{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+    text-align: left;
+}
+
+.section-rb::before {
+    content: "";
+    position: absolute;
+    background-color: #173084;
+    width: 600px;
+    height: 7px;
+    bottom: 0;
+    align-items: center;
+}
+                                                   /* McLaren */
+.section-mclaren{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-mclaren::before {
+    content: "";
+    position: absolute;
+    background-color: #fea821;
+    width: 350px;
+    height: 7px;
+    bottom: 0;
+}
+                                                   /* Aston Martin */
+.section-aston{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-aston::before {
+    content: "";
+    position: absolute;
+    background-color: #015850;
+    width: 350px;
+    height: 7px;
+    bottom: 0;
+}
+                                                   /* Alpine*/
+.section-alpine{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-alpine::before {
+    content: "";
+    position: absolute;
+    background-color: #00b6ff;
+    width: 350px;
+    height: 7px;
+    bottom: 0;
+}
+                                                   /* Alphatauri*/
+.section-alphatauri{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-alphatauri::before {
+    content: "";
+    position: absolute;
+    background-color: #1e3348;
+    width: 350px;
+    height: 7px;
+    bottom: 0;
+}
+                                                   /* Ferrari */
+.section-ferrari{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-ferrari::before {
+    content: "";
+    position: absolute;
+    background-color: #fe575f;
+    width: 350px;
+    height: 7px;
+    bottom: 0;
+}
+                                                   /* Alfa Roméo */
+.section-alfa{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-alfa::before {
+    content: "";
+    position: absolute;
+    background-color: #74000c;
+    width: 350px;
+    height: 7px;
+    bottom: 0;
+}
+                                                   /* Haas */
+.section-haas{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-haas::before {
+    content: "";
+    position: absolute;
+    background-color: #2e4881;
+    width: 350px;
+    height: 7px;
+    bottom: 0;
+}
+                                                   /* williams */
+.section-williams{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-williams::before {
+    content: "";
+    position: absolute;
+    background-color: #1d80bb;
+    width: 350px;
+    height: 7px;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+                                                         /* Classement Pilotes */
+
+.classement-détails {
+    width: 90.7%;
+    bottom: 0;
+    background-color: #D6D7D7;
+    padding: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+.Lewis_Hamilton{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+    color: black;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.identité{
+    display: flex;
+}
+
+.classement-détails {
+    width: 97.8%;
+    bottom: 0;
+    background-color: #E8D8D8;
+    padding: 2px 20px;
+    display: flex;
+    border-bottom: 4px solid red;
+} 
+h2.position{margin-left: 40px;}
+h2.nom{margin-left: 170px;}
+h2.prenom{margin-left: 117px;}
+h2.numéro{margin-left: 120px;}
+h2.ecurie{margin-left: 135px;}
+h2.places{margin-left: 235px;}
+h2.victoire{margin-left: 290px;}
+h2.points{margin-left: 190px;}
+
+.position2{margin-left: 40px;}
+.nom2{margin-left:-30px;}
+.prenom2{margin-left: -110px ;}
+.numéro2{margin-left: -120px;}
+.ecurie2{margin-left: 200px;}
+.places2{margin-left: -50px;}
+.victoire2{margin-left: 2;}
+.points2{margin-left:;}
+
+
+.tableau{
+    width: 97.8%;
+    bottom: 0;
+    background-color: white;
+    padding: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid red;
+}
+.fa-sort-up{
+    color: green;
+}
+
+
+
